@@ -59,8 +59,8 @@ python manage.py runserver
 
 ### Получение баланса выбранного адреса
 
-GET `GET http://localhost:8080/get_balance?address=`
-Пример запроса: `http://localhost:8080/get_balance?address=0x5f84192D83A49C2D7Aac6C859a7BDABf18e970b8`
+GET `GET http://localhost:8000/get_balance?address=`
+Пример запроса: `http://localhost:8000/get_balance?address=0x5f84192D83A49C2D7Aac6C859a7BDABf18e970b8`
 
 Пример ответа:
 ```
@@ -71,7 +71,7 @@ GET `GET http://localhost:8080/get_balance?address=`
 
 ### Получение балансов нескольких адресов одновременно
 
-POST `http://localhost:8080/get_balance_batch/`
+POST `http://localhost:8000/get_balance_batch/`
 
 Тело запроса:
 
@@ -93,9 +93,9 @@ POST `http://localhost:8080/get_balance_batch/`
 
 ### Получение списка топ адресов по балансам токена
 
-GET `http://localhost:8080/get_top?N=`
+GET `http://localhost:8000/get_top?N=`
 
-Пример запроса: `http://localhost:8080/get_top?N=3`
+Пример запроса: `http://localhost:8000/get_top?N=3`
 
 Пример ответа:
 ```json
@@ -119,9 +119,9 @@ GET `http://localhost:8080/get_top?N=`
 
 ### Получение списка топ адресов по балансам токена с информацией о датах последних транзакций
 
-GET `http://localhost:8080/get_top_with_transactions?N=`
+GET `http://localhost:8000/get_top_with_transactions?N=`
 
-Пример запроса: `http://localhost:8080/get_top_with_transactions?N=3`
+Пример запроса: `http://localhost:8000/get_top_with_transactions?N=3`
 
 Пример ответа:
 ```json
@@ -148,9 +148,9 @@ GET `http://localhost:8080/get_top_with_transactions?N=`
 
 ### Развертывание сервера для обработки HTTP-запросов по вышеуказанным функциям
 
-GET `http://localhost:8080/get_token_info?address=`
+GET `http://localhost:8000/get_token_info?address=`
 
-Пример запроса: `http://localhost:8080/get_token_info?address=0x1a9b54a3075119f1546c52ca0940551a6ce5d2d0`
+Пример запроса: `http://localhost:8000/get_token_info?address=0x1a9b54a3075119f1546c52ca0940551a6ce5d2d0`
 
 Пример ответа:
 
