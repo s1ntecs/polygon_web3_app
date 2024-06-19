@@ -63,7 +63,7 @@ GET `GET http://localhost:8000/get_balance?address=`
 Пример запроса: `http://localhost:8000/get_balance?address=0x5f84192D83A49C2D7Aac6C859a7BDABf18e970b8`
 
 Пример ответа:
-```
+```json
 {
     "balance": "233.6580794289185"
 }
