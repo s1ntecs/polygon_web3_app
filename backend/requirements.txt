@@ -1,0 +1,8 @@
+Django==4.2
+djangorestframework==3.14.0
+web3==5.27
+flake8==7.0.0
+python-dotenv==1.0.1
+adrf==0.1.6
+httpx
+multicall
